@@ -1,0 +1,23 @@
+.root {
+    padding: 1.5rem;
+    background-color: #0F1D4F;
+    border-radius: .3rem;
+    width: 12rem;
+    color: #f9f9f9;
+    margin-right: 2rem;
+    flex-grow: 1;
+}
+
+.card_title {
+    display: block;
+    white-space: nowrap;
+    margin-bottom: 1.2rem;
+    color: #999;
+}
+
+.card_value {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #ccc;
+}

@@ -1,0 +1,25 @@
+.root {
+    background-color: #0F2653;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+
+.connect_btn {
+    background-color:#0F2653;
+    color: #FFB800;
+    font-size: 1.2rem;
+    border: 1px solid #FB6627;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+}

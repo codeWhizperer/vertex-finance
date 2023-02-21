@@ -1,0 +1,62 @@
+.root {
+    width: 100%;
+    margin: 4rem auto;
+    border-radius: 1rem;
+}
+
+.table {
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+
+.table_header {
+    background-color: #243B68;
+    color: white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.table__head_row {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border: 1px solid #ccc;
+    width: 100%;
+    
+}
+
+.table_head_data {
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+.table_data {
+    padding: 1rem;
+    color: #fff;
+    border: 1px solid #ccc;
+}
+
+.stake_style {
+    background-color: rgb(209, 206, 206);
+}
+
+
+.unstake_style {
+    background-color: rgb(240, 239, 239);
+}
+
+/* .wrapper{
+    max-height: 100vh;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+} */
+
+.history{
+    margin-bottom: .5rem;
+    color: #0A5CF7;
+}

@@ -1,0 +1,46 @@
+.backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 50;
+    /* background: rgba(255, 255, 255, 0.87); */
+    background-color: #3b3333c6;
+  }
+  
+  .modal {
+    top: 25%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    left: 35%;
+    /* width: 50%; */
+    z-index: 60;
+    position: absolute;
+    -webkit-animation: slide-down 300ms ease-out forwards;
+            animation: slide-down 300ms ease-out forwards;
+  }
+  
+  @-webkit-keyframes slide-down {
+    from {
+      opacity: 0;
+      -webkit-transform: translateY(-3rem);
+              transform: translateY(-3rem);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  
+  @keyframes slide-down {
+    from {
+      opacity: 0;
+      -webkit-transform: translateY(-3rem);
+              transform: translateY(-3rem);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }

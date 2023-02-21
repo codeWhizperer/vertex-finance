@@ -1,0 +1,147 @@
+.root {
+    margin-top: 5rem;
+    padding: 1.5rem;
+    background-color: #213762;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+}
+
+.heading {
+    color: #FF7917;
+    font-size: 2.2rem;
+    text-transform: capitalize;
+}
+
+.stake_body {
+    margin-top: 1.5rem;
+}
+
+.card_container {
+    display: flex;
+}
+
+.form {
+    margin-top: 1.5rem;
+}
+
+.input {
+    padding: .8rem;
+    border-radius: .2rem;
+    border: none;
+}
+
+.stake_btn {
+    padding: .8rem 1.2rem;
+    border: 0;
+    background-color: rgb(8, 153, 107);
+    border-radius: .3rem;
+    margin-left: 1rem;
+    width: 6rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.unstake_btn {
+    padding: .8rem 1.2rem;
+    border: 0;
+    background-color: brown;
+    border-radius: .3rem;
+    margin-left: 1rem;
+    width: 6rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn_diabled {
+    background-color: rgb(168, 164, 164);
+    cursor: not-allowed;;
+}
+
+.card{
+    background: #fafafa;
+    margin-top: 2rem;
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 1rem .75rem;
+}
+.cc{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.para{
+    max-width: 100%;
+    word-break: break-all;
+    color: #c5c5c5;
+}
+
+.md{
+    display: flex;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clear{
+    display: flex;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #b5b5b5;
+    cursor: pointer;
+}
+
+.clear:hover{
+    outline: none;
+}
+.cc > h4{
+ color: #443838;
+font-size: 1.2rem;
+}
+.bttn{
+    border: none;
+    padding: .75rem;
+    background-color: #443838;
+    color: #f9f9f9;
+    cursor: pointer;
+    margin-top: .5rem;
+    border-radius: 10px;
+
+}
+
+.staking{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.inputBox{
+position: relative;
+}
+.icon{
+position: absolute;
+right: 2px;
+bottom: 2px;
+}
+
+.searchBox{
+    outline: none;
+    border: none;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    padding-right: 2rem;
+    padding-left: .5rem;
+    background-color: #2A3EF5;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.searchBox::placeholder{
+    color: #ffff;
+}
+
